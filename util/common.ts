@@ -9,6 +9,14 @@ export function assignInplace<T>(destination: T[], new_array: T[]): T[] {
   return destination;
 }
 
+<<<<<<< HEAD
+=======
+// 修正 _.merge 对数组的合并逻辑, [1, 2, 3] 和 [4, 5] 合并后变成 [4, 5] 而不是 [4, 5, 3]
+export function correctlyMerge<TObject, TSource>(lhs: TObject, rhs: TSource): TObject & TSource {
+  return _.mergeWith(lhs, rhs, (_lhs, rhs) => (_.isArray(rhs) ? rhs : undefined));
+}
+
+>>>>>>> f8a9af192956c000490c09a467149c30b8d67ecc
 export function chunkBy<T>(array: T[], predicate: (lhs: T, rhs: T) => boolean): T[][] {
   if (array.length === 0) {
     return [];
@@ -116,6 +124,7 @@ export function parseString(content: string): any {
   }
   return parsed;
 }
+<<<<<<< HEAD
 
 export async function checkAndUpdateCharacter(name: string, latest_version: string, png_url: string): Promise<void> {
   const current_version = (await getCharacter(name)).version.trim() || '0.0.0';
@@ -129,3 +138,5 @@ export async function checkAndUpdateCharacter(name: string, latest_version: stri
     name,
   );
 }
+=======
+>>>>>>> f8a9af192956c000490c09a467149c30b8d67ecc
