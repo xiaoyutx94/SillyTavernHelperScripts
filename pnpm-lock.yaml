@@ -41,9 +41,12 @@ importers:
       jqueryui:
         specifier: ^1.11.1
         version: 1.11.1
+<<<<<<< HEAD
       json5:
         specifier: ^2.2.3
         version: 2.2.3
+=======
+>>>>>>> d8b37673c7eb2745a3439060fbf772c95799b9eb
       jsonrepair:
         specifier: ^3.13.2
         version: 3.13.2
