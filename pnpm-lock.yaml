@@ -3692,8 +3692,13 @@ packages:
   trough@2.2.0:
     resolution: {integrity: sha512-tmMpK00BjZiUyVyvrBK7knerNgmgvcV/KLVyuma/SC+TQN167GrMRciANTz09+k3zW8L8t60jWO1GpfkZdjTaw==}
 
+<<<<<<< HEAD
   ts-api-utils@2.5.0:
     resolution: {integrity: sha512-OJ/ibxhPlqrMM0UiNHJ/0CKQkoKF243/AEmplt3qpRgkW8VG7IfOS41h7V8TjITqdByHzrjcS/2si+y4lIh8NA==}
+=======
+  ts-api-utils@2.4.0:
+    resolution: {integrity: sha512-3TaVTaAv2gTiMB35i3FiGJaRfwb3Pyn/j3m/bfAvGe8FB7CF6u+LMYqYlDh7reQf7UNvoTvdfAqHGmPGOSsPmA==}
+>>>>>>> 68ec069ef06d920c2018e14dffb39c8904448003
     engines: {node: '>=18.12'}
     peerDependencies:
       typescript: '>=4.8.4'
@@ -4574,7 +4579,11 @@ snapshots:
       eslint: 9.39.4(jiti@2.6.1)
       ignore: 7.0.5
       natural-compare: 1.4.0
+<<<<<<< HEAD
       ts-api-utils: 2.5.0(typescript@6.0.0-dev.20250807)
+=======
+      ts-api-utils: 2.4.0(typescript@6.0.0-dev.20250807)
+>>>>>>> 68ec069ef06d920c2018e14dffb39c8904448003
       typescript: 6.0.0-dev.20250807
     transitivePeerDependencies:
       - supports-color
@@ -4616,7 +4625,11 @@ snapshots:
       '@typescript-eslint/utils': 8.57.1(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.0-dev.20250807)
       debug: 4.4.3
       eslint: 9.39.4(jiti@2.6.1)
+<<<<<<< HEAD
       ts-api-utils: 2.5.0(typescript@6.0.0-dev.20250807)
+=======
+      ts-api-utils: 2.4.0(typescript@6.0.0-dev.20250807)
+>>>>>>> 68ec069ef06d920c2018e14dffb39c8904448003
       typescript: 6.0.0-dev.20250807
     transitivePeerDependencies:
       - supports-color
@@ -4633,7 +4646,11 @@ snapshots:
       minimatch: 10.2.4
       semver: 7.7.4
       tinyglobby: 0.2.15
+<<<<<<< HEAD
       ts-api-utils: 2.5.0(typescript@6.0.0-dev.20250807)
+=======
+      ts-api-utils: 2.4.0(typescript@6.0.0-dev.20250807)
+>>>>>>> 68ec069ef06d920c2018e14dffb39c8904448003
       typescript: 6.0.0-dev.20250807
     transitivePeerDependencies:
       - supports-color
@@ -7768,7 +7785,11 @@ snapshots:
 
   trough@2.2.0: {}
 
+<<<<<<< HEAD
   ts-api-utils@2.5.0(typescript@6.0.0-dev.20250807):
+=======
+  ts-api-utils@2.4.0(typescript@6.0.0-dev.20250807):
+>>>>>>> 68ec069ef06d920c2018e14dffb39c8904448003
     dependencies:
       typescript: 6.0.0-dev.20250807
 
